@@ -1,5 +1,6 @@
 class AddDataAttributesToShow < ActiveRecord::Migration[4.2]
   def change
-    add_column :shows, :data_attributes, :string
+    add_column :shows, :day, :string
+    add_column :shows, season, :string
   end
 end
